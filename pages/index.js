@@ -13,7 +13,8 @@ export default function IndexPage() {
       "353814081031228;" + Date.now(),
       password
     );
-    setMessage(encrypted);
+    //setMessage(encrypted);
+    setMessage("353814081031228;" + Date.now());
   }, 500);
 
   return (
